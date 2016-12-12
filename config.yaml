@@ -1,0 +1,11 @@
+---
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+indexes:
+  category: "categories"
+baseurl: "http://baisibei.github.io/hugo_gh_blog"
+title: "果果的成长历程"
+canonifyurls: true
+theme: "Lanyon"
+...
