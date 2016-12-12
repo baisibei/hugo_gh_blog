@@ -26,18 +26,18 @@
     <div class="masthead">
       <div class="container">
         <h3 class="masthead-title">
-          <a href="/posts" title="Blog">Blog Posts</a>
+          <a href="/posts" title="Blog">文章列表</a>
         </h3>
       </div>
     </div>
 
   <!-- Show summary of all posts in a category -->
     <div class="container content">
-      <h1 class="post-title">Recent Posts</h1>
+      <h1 class="post-title">最新文章</h1>
         <section id="main">
           <div>
-            <h5><a href="/categories">Full Category Index</a></h5>
-            <h2>Posts in &ldquo;{{ .Title }}&rdquo;</h2>
+            <h5><a href="/categories">所有分类索引</a></h5>
+            <h2>&ldquo;{{ .Title }}&rdquo;分类中的文章</h2>
             {{ range .Data.Pages }}
             {{ .Render "summary"}}
             {{ end }}
